@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
     private fun startScan() {
         val options = GmsDocumentScannerOptions.Builder()
             .setGalleryImportAllowed(true)
-            .setPageLimit(20)
+            .setPageLimit(100)
             .setResultFormats(GmsDocumentScannerOptions.RESULT_FORMAT_PDF)
             .setScannerMode(GmsDocumentScannerOptions.SCANNER_MODE_FULL)
             .build()
